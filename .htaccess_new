@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+	# iPhone, iPod, AndroidをUAで判別して/spディレクトリへリダイレクト
+	# リンクURLの末尾に?mode=pcがない場合はリダイレクトさせない
+	# PC向けページへリンクさせる場合はURL末尾に?mode=pcをつける
+	RewriteCond %{HTTP_USER_AGENT} (iPhone|iPod|Android)
+	RewriteCond %{QUERY_STRING} !mode=pc
+	RewriteRule ^$ /sp/ [R,L]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta name="Description" content="相続や遺言の手続きなら「相続・遺言手続トータルサポート大阪・吹田」へ！" />
+<meta name="Keywords" content="相続,遺言,手続,大阪,吹田,遺書,遺産" />
+<title>相続・遺言手続トータルサポート大阪</title>
+<!-- TemplateEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<link href="../sp/common/css/default.css" rel="stylesheet" type="text/css">
+<link href="../sp/common/css/page.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../sp/common/js/jquery.page-scroller-308.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="visual" type="boolean" value="true" -->
+<!-- TemplateParam name="bodyID" type="text" value="home" -->
+<!-- TemplateParam name="title_h1" type="boolean" value="true" -->
+<!-- TemplateParam name="title_p" type="boolean" value="false" -->
+</head>
+<body id="@@(bodyID)@@">
+<div id="wrapper">
+	<!-- header -->
+	<header>
+		<!-- TemplateBeginIf cond="title_h1" -->
+		<h1 class="title"><a href="../sp/index.html"><img src="../sp/common/img/header_logo.png" width="192" height="40" alt="相続・遺言手続きトータルサポート大阪"></a></h1>
+		<!-- TemplateEndIf --><!-- TemplateBeginIf cond="title_p" -->
+		<p class="title"><a href="../sp/index.html"><img src="../sp/common/img/header_logo.png" width="192" height="40" alt="相続・遺言手続きトータルサポート大阪"></a></p>
+		<!-- TemplateEndIf --><span><a href="../index.php?mode=pc"><img src="../sp/common/img/header_btn_pc.png" width="94" height="38" alt="PCサイト"></a></span>
+	</header>
+	<!-- /header --> 
+	<!-- TemplateBeginIf cond="visual" --> 
+	<!-- #visual -->
+	<div id="visual">
+		<div class="main-visual">
+			<img src="../sp/img/visual_img.png" width="320" height="140" alt="私たち相続のプロにお任せください！相続・遺言の手続きを全面サポートします。">
+		</div>
+	</div>
+	<!-- /#visual --> 
+	<!-- TemplateEndIf --> 
+	<!-- #cont-->
+	<div id="cont">
+		<!-- TemplateBeginEditable name="cont" -->
+		<section class="point">
+			<img src="../sp/img/main_icon_point00.png" width="300" height="64" alt="相談無料・相談無料・土日対応・出張相談">
+<!--
+			<ul class="clearfix">
+				<li><img src="../sp/img/main_icon_point01.png" width="70" height="64" alt="相談無料"></li>
+				<li><img src="../sp/img/main_icon_point02.png" width="70" height="64" alt="相談無料"></li>
+				<li><img src="../sp/img/main_icon_point03.png" width="70" height="64" alt="土日対応"></li>
+				<li><img src="../sp/img/main_icon_point04.png" width="70" height="64" alt="出張相談"></li>
+			</ul>-->
+		</section><!-- #BeginLibraryItem "/Library/global-nav.lbi" -->
+		<div class="p-top clearfix">
+			<span><a href="#wrapper">ページの先頭へ</a></span>
+		</div>
+		<nav class="global">
+			<ul>
+				<li><a href="../sp/info.html">相続・遺言手続<br>
+					トータルサポート大阪とは</a></li>
+				<li><a href="../inheritance/index.html">相続手続きについて<img src="../sp/common/img/nav_icon_pc.png" width="40" height="17" alt="PCサイト表示"></a></li>
+				<li><a href="../will/index.html">生前対策について<img src="../sp/common/img/nav_icon_pc.png" width="40" height="17" alt="PCサイト表示"></a></li>
+				<li><a href="../sp/voice.html">お客様の声</a></li>
+				<li><a href="../sp/flow.html">ご相談の流れ</a></li>
+				<li><a href="../sp/corporate.html">運営会社情報</a></li>
+				<li><a href="../sp/inquiry/inquiry.html">お問い合わせ</a></li>
+			</ul>
+		</nav><!-- #EndLibraryItem --><section class="inquiry">
+			<p><img src="../sp/img/inquiry_img_tel.png" width="272" height="78" alt="0120-13-7838　平日・土・日／9:00～18:00受付"></p>
+			<ul>
+				<li><a href="tel:0120-13-7838"><img src="../sp/img/inquiry_btn_tel.png" width="195" height="40" alt="電話をかける"></a></li>
+				<li><a href="../sp/inquiry/inquiry.html"><img src="../sp/img/inquiry_btn_mail.png" width="195" height="40" alt="メールフォーム"></a></li>
+			</ul>
+			<span><img src="../sp/img/inquiry_img_mascot.png" width="105" height="104" alt="0120-13-7838（平日・土・日／9:00～18:00受付）"></span> </section>
+		<div class="p-top clearfix">
+			<span><a href="#wrapper">ページの先頭へ</a></span>
+		</div>
+		<nav class="footer-nav">
+			<ul class="clearfix">
+				<li><a href="../sp/index.html">ホームへ </a></li>
+				<li><a href="../index.php?mode=pc">PCサイトへ</a></li>
+			</ul>
+		</nav>
+		<!-- TemplateEndEditable -->
+	</div>
+	<!-- /#cont --> 
+	<!-- footer -->
+	<footer>
+		<p>(C) Copyright 大阪・吹田の相続・遺言手続トータルサポート大阪 All right reserved. </p>
+	</footer>
+	<!-- /footer -->
+	
+</div>
+</body>
+</html>

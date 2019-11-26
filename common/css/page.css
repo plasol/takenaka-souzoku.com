@@ -1,0 +1,3209 @@
+@charset "utf-8";
+/*** ------------------------------------------------------------------------------ 
+
+ホーム（#home）
+
+-----------------------------------------------------------------------------  ***/
+#home #wrapper #cont #main .section h2 {
+	padding:0 0 0 45px;
+	line-height:50px;
+	height:50px;
+	font-size:1.4em;
+	font-weight:bold;
+	margin:0 0 20px;
+}
+#home #wrapper #cont #main .section.news h2 {
+	background:url(../../img/h2_bg01.png) no-repeat;
+}
+#home #wrapper #cont #main .section.news table {
+	width:100%;
+}
+#home #wrapper #cont #main .section.news table th {
+	background:url(../../img/arrow_green.png) 10px center no-repeat;
+	padding:10px 0 10px 25px;
+	width:100px;
+	border-bottom:1px dotted #699C00;
+	color:#72AA00;
+	font-weight:bold;
+}
+#home #wrapper #cont #main .section.news table td {
+	border-bottom:1px dotted #699C00;
+}
+#home #wrapper #cont #main .section.news.s-blog table td {
+	background:url(../../img/arrow_green.png) 10px center no-repeat;
+	padding:10px 0 10px 25px;
+	width:100px;
+	border-bottom:1px dotted #699C00;
+	color:#72AA00;
+	font-weight:bold;
+}
+#home #wrapper #cont #main .section.question h2 {
+	background:url(../../img/h2_bg02.png) no-repeat;
+}
+#home #wrapper #cont #main .section.question p.padding-tb {
+	padding:5px 0 20px;
+}
+#home #wrapper #cont #main .section.question ul {
+	background:#F0F6E3;
+	padding:10px;
+	margin:0 0 10px;
+}
+#home #wrapper #cont #main .section.question ul li {
+	background:url(../../img/icon01.png) left 0.13em no-repeat;
+	padding:5px 0 5px 35px;
+	font-size:1.4em;
+	font-weight: bold;
+}
+#home #wrapper #cont #main .section.question p span {
+	font-weight:bold;
+	font-size:1.32em;
+	color:#DE003D;
+}
+#home #wrapper #cont #main .section.solution h2 {
+	background:url(../../img/h2_bg02.png) no-repeat;
+}
+#home #wrapper #cont #main .section.point h2 {
+	background:url(../../img/h2_bg04.png) no-repeat;
+}
+#home #wrapper #cont #main .section.point ul li {
+	margin:0 0 20px;
+}
+#home #wrapper #cont #main .section.point ul li.no01 {
+	background:url(../../img/img05.png) left top no-repeat;
+	height:278px;
+	padding:15px 283px 0 50px;
+}
+#home #wrapper #cont #main .section.point ul li.no02 {
+	background:url(../../img/img06.png) left top no-repeat;
+	height:144px;
+	padding:15px 228px 0 50px;
+}
+#home #wrapper #cont #main .section.point ul li.no03 {
+	background:url(../../img/img07.png) left top no-repeat;
+	height:121px;
+	padding:15px 235px 0 50px;
+}
+#home #wrapper #cont #main .section.point ul li.no04 {
+	background:url(../../img/img08.png) left top no-repeat;
+	height:142px;
+	padding:15px 235px 0 50px;
+	margin:0;
+}
+#home #wrapper #cont #main .section.point ul span.large-color {
+	font-weight:bold;
+	font-size:1.16em;
+	color:#FF0000;
+}
+#home #wrapper #cont #main .section.point ul span.color {
+	color:#FF0000;
+}
+#home #wrapper #cont #main .section.point ul span.large-txt {
+	font-size:1.2em;
+	font-weight: bold;
+}
+#home #wrapper #cont #main .section.point ul span.padding-t {
+	display:block;
+	padding:0.5em 0 0;
+}
+#home #wrapper #cont #main .section.point ul span.size-n {
+	font-size: 1em;
+}
+#home #wrapper #cont #main .section.point ul strong {
+	display:block;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#669900;
+	margin:0 0 10px;
+}
+#home #wrapper #cont #main .section.solution .greeting {
+	padding:20px 0 20px 20px;
+	
+}
+#home #wrapper #cont #main .section.solution .greeting img {
+	float: left;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+#home #wrapper #cont #main .section.schedule .left{
+	float:left;
+	width:346px;
+}
+#home #wrapper #cont #main .section.schedule .left p{
+	padding:0 0 0 20px;
+}
+#home #wrapper #cont #main .section.schedule .left img{
+	padding:0 0 10px;
+}
+#home #wrapper #cont #main .section.schedule .right{
+	width: 344px;
+	float:right;
+}
+#home #wrapper #cont #main .section.schedule .right table{
+	width:100%;
+	border:#999 1px solid;
+}
+#home #wrapper #cont #main .section.schedule .right table th{
+	background: #FEFCEF;
+	width:50px;
+	height:48px;
+	text-align: center;
+	font-weight: bold;
+	border:#999 1px solid;
+	line-height:1.4;
+}
+#home #wrapper #cont #main .section.schedule .right table th.saturday{
+	color:#3366FF;
+}
+#home #wrapper #cont #main .section.schedule .right table th.sunday{
+	color: #F00;
+}
+#home #wrapper #cont #main .section.schedule .right table td{
+	width:50px;
+	height:48px;
+	text-align: center;
+	font-weight: bold;
+	border:#999 1px solid;
+}
+
+#home #wrapper #cont #main .section.schedule .right p{
+	padding:10px 0 0 15px;
+}
+
+#home #wrapper #cont #main .section .staff-list{
+	padding:0 0 0 5px;
+	margin:0 0 -30px;
+}
+#home #wrapper #cont #main .section .staff-list li{
+	float:left;
+	width:143px;
+	padding:0 16px 20px;
+	text-align: right;
+}
+#home #wrapper #cont #main .section .staff-list li span{
+	display:inline-block;
+	padding:10px 0 10px 15px;
+	background: url(../../info/img/arrow.jpg) left center no-repeat;
+}
+#home #wrapper #cont #main .muryou{
+	width:710px;
+	height: 613px;
+	position: relative;
+	background:url(../../img/muryo_img01.png) no-repeat scroll;
+	margin:0 0 20px;
+}
+#home #wrapper #cont #main .muryou .btn01{
+	position:absolute;
+	top:163px;
+	right:10px;
+}
+#home #wrapper #cont #main .muryou .btn01 a:hover{
+	opacity: 0.7;
+}
+#home #wrapper #cont #main .muryou .btn02{
+	position:absolute;
+	bottom:30px;
+	right:21px;
+	width:670px;
+}
+#home #wrapper #cont #main .muryou .btn02 li a{
+	color:#FFF;
+	background:url(../../img/iconarrow01.png) no-repeat scroll left 10px center,url(../../img/iconarrow02.png) no-repeat scroll right 10px center #f64c00;
+	background-size:17px;
+	padding:12px 0;
+	width:320px;
+	text-align: center;
+	float:left;
+	text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: '游ゴシック';
+    border-radius: 5px;
+	border-bottom:5px solid #ae3600;
+}
+#home #wrapper #cont #main .muryou .btn02 li:last-child a{
+	float:right;
+}
+#home #wrapper #cont #main .muryou .btn02 li a:hover{
+	background:url(../../img/iconarrow01.png) no-repeat scroll left 10px center,url(../../img/iconarrow02.png) no-repeat scroll right 10px center #ae3600;
+	background-size:17px;
+}
+
+
+.staff-list2 {
+}
+#main .section.staff-list2 h4 {
+	margin: 10px 0 30px;
+}
+#main .section.staff-list2 h4 {
+	padding-bottom: 0px;
+}
+
+#home #wrapper #cont #main .lp-banner {
+	margin:-19px 0 25px;
+}
+#home #wrapper #cont #main .sales{
+	margin:-20px 0 10px -9px;
+	position:relative;
+}
+#home #wrapper #cont #main .sales.btn{
+	margin:0 0 20px -9px;
+}
+#home #wrapper #cont #main .sales li{
+	float:left;
+	margin:0 0 0 9px;
+}
+#home #wrapper #cont #main .qatitle{
+	margin:0 0 20px;
+}
+#home #wrapper #cont #main .sales.title{
+	margin:0 0 20px -9px;
+}
+#home #wrapper #cont #main .sales.title li{
+	background:url(../../img/qabanner_img05.png) no-repeat scroll center bottom;
+	padding:0 0 42px;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+相続手続きの流れ（#inheritance）
+
+-----------------------------------------------------------------------------  ***/
+
+#inheritance #wrapper #cont #main .section .time {
+	background:url(../../inheritance/img/inheritance_arrow.png) left bottom no-repeat;
+	margin:0 0 20px;
+}
+*html #inheritance #wrapper #cont #main .section .time {
+	background:url(../../inheritance/img/inheritance_arrow.png) left bottom no-repeat;
+	margin:0 0 0px;
+	padding:0 0 10px;
+}
+*:first-child+html #inheritance #wrapper #cont #main .section .time {
+	background:url(../../inheritance/img/inheritance_arrow.png) left bottom no-repeat;
+	margin:0 0 0px;
+	padding:0 0 10px;
+}
+#inheritance #wrapper #cont #main .section .time.limit01 dl {
+	padding:0 0 0 151px;
+	background:url(../../inheritance/img/inheritance_arrow_text01.png) 50px 10px no-repeat;
+}
+#inheritance #wrapper #cont #main .section .time.limit02 dl {
+	padding:0 0 0 151px;
+	background:url(../../inheritance/img/inheritance_arrow_text02.png) 50px 10px no-repeat;
+}
+#inheritance #wrapper #cont #main .section .time.limit03 dl {
+	padding:0 0 0 151px;
+	background:url(../../inheritance/img/inheritance_arrow_text03.png) 50px 10px no-repeat;
+}
+#inheritance #wrapper #cont #main .section .time.limit04 dl {
+	padding:0 0 0 151px;
+	background:url(../../inheritance/img/inheritance_arrow_text04.png) 50px 10px no-repeat;
+}
+#inheritance #wrapper #cont #main .section .time.limit05 dl {
+	padding:0 0 0 151px;
+	background:url(../../inheritance/img/inheritance_arrow_text05.png) 50px 10px no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt {
+	font-size:1.3em;
+	font-weight:bold;
+	height:50px;
+	line-height:50px;
+	padding:0 0 0 40px;
+}
+#inheritance #wrapper #cont #main .section dt.no01 {
+	background:url(../../inheritance/img/img_inheritance03.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no02 {
+	background:url(../../inheritance/img/img_inheritance04.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no03 {
+	background:url(../../inheritance/img/img_inheritance05.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no04 {
+	background:url(../../inheritance/img/img_inheritance06.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no05 {
+	background:url(../../inheritance/img/img_inheritance07.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no06 {
+	background:url(../../inheritance/img/img_inheritance08.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no07 {
+	background:url(../../inheritance/img/img_inheritance09.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no08 {
+	background:url(../../inheritance/img/img_inheritance10.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no09 {
+	background:url(../../inheritance/img/img_inheritance11.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no10 {
+	background:url(../../inheritance/img/img_inheritance12.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no11 {
+	background:url(../../inheritance/img/img_inheritance13.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dt.no12 {
+	background:url(../../inheritance/img/img_inheritance15.png) no-repeat;
+}
+#inheritance #wrapper #cont #main .section dd {
+	padding:10px 0 20px;
+}
+#inheritance #wrapper #cont #main .section dd span {
+	display:block;
+	padding:1em 0 0;
+}
+#inheritance #wrapper #cont #main .section dd strong {
+	font-weight:bold;
+	color:#DC1150;
+}
+#inheritance #wrapper #cont #main .section dd img {
+	padding:10px 0 0;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続手続きの種類（#list）
+
+-----------------------------------------------------------------------------  ***/
+#list #wrapper #cont #main .section table {
+	margin:0px 20px;
+	border:1px solid #CCC;
+	width:670px;
+}
+#list #wrapper #cont #main .section table th {
+	background: #7AAD00;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:1.2em;
+	font-weight:bold;
+	border:1px solid #CCC;
+	padding:5px 0;
+}
+#list #wrapper #cont #main .section table th.number01 {
+	width:50px;
+}
+#list #wrapper #cont #main .section table th.number02 {
+	width:200px;
+}
+#list #wrapper #cont #main .section table th.number03 {
+}
+#list #wrapper #cont #main .section table th.number04 {
+	width:110px;
+}
+#list #wrapper #cont #main .section table th.number05 {
+	width:60px;
+}
+#list #wrapper #cont #main .section table td {
+	border:1px solid #CCC;
+	padding:10px;
+}
+#list #wrapper #cont #main .section table tr.bg_color td {
+	background:#FEFCE9;
+}
+/*** ------------------------------------------------------------------------------ 
+
+遺産相続について（#bout）
+
+-----------------------------------------------------------------------------  ***/
+#about #wrapper #cont #main .menu {
+	margin:0 20px 20px;
+	padding:10px 10px 10px 120px;
+	min-height:100px;
+}
+#about #wrapper #cont #main .who {
+	background:url(../../inheritance/img/img_about02.png) 10px center no-repeat #FCF7D3;
+}
+#about #wrapper #cont #main .what {
+	background:url(../../inheritance/img/img_about03.png) 10px center no-repeat #FCF7D3;
+}
+#about #wrapper #cont #main .how {
+	background:url(../../inheritance/img/img_about04.png) 10px center no-repeat #FCF7D3;
+}
+#about #wrapper #cont #main .menu h5 a {
+	color:#79AC00;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:0 0 5px;
+	text-decoration:none;
+}
+#about #wrapper #cont #main .menu.bl-hover {
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+}
+/*** ------------------------------------------------------------------------------ 
+
+誰に？？（#who）
+
+-----------------------------------------------------------------------------  ***/
+#who #wrapper #cont #main .menu {
+	border:1px solid #7AAD00;
+	padding:10px;
+	background:url(../../inheritance/img/img_who01.jpg) 430px center no-repeat;
+	margin:10px 20px 0px;
+	width:650px;
+}
+#who #wrapper #cont #main .menu li {
+	background:url(../../common/img/arrow_green.png) left center no-repeat;
+	padding:5px 20px 5px;
+}
+#who #wrapper #cont #main .menu li a {
+	font-weight:bold;
+	font-size:1.08em;
+}
+#who #wrapper #cont #main #menu01 p {
+	padding:0 150px 0 0;
+	background:url(../../inheritance/img/img_who02.jpg) right center no-repeat;
+	min-height:100px;
+	margin:0 20px 1em;
+}
+*html #who #wrapper #cont #main #menu01 p {
+	height:100px;
+}
+#who #wrapper #cont #main #menu02 table {
+	margin:0px 20px 20px;
+	width:670px;
+	text-align:center;
+	border:1px solid #CCC;
+}
+#who #wrapper #cont #main #menu02 table td {
+	border:1px solid #CCC;
+}
+#who #wrapper #cont #main #menu02 table th {
+	background: #7AAD00;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:1px solid #CCC;
+	padding:5px 0;
+	text-align:center;
+}
+#who #wrapper #cont #main #menu03 table {
+	margin:0px 20px 20px;
+	width:670px;
+	text-align:center;
+	border:1px solid #CCC;
+}
+#who #wrapper #cont #main #menu03 table th {
+	background: #7AAD00;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:1px solid #CCC;
+	padding:5px 0;
+	text-align:center;
+}
+#who #wrapper #cont #main #menu03 table th.th01 {
+	width:180px;
+}
+#who #wrapper #cont #main #menu03 table th.th02 {
+	width:220px;
+}
+#who #wrapper #cont #main #menu03 table td {
+	padding:10px 0;
+	text-align:center;
+	border:1px solid #CCC;
+}
+/*** ------------------------------------------------------------------------------ 
+
+何を？？（#what）
+
+-----------------------------------------------------------------------------  ***/
+#what #wrapper #cont #main .section .section_cont.sec00 h5 {
+	font-size:1.2em;
+	font-weight:bold;
+	padding:0 0 0 40px;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont h5 {
+	font-size:1.2em;
+	font-weight:bold;
+	padding:0 0 0 40px;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont h5.plus {
+	background:url(../../inheritance/img/img_what01-2.png) left center no-repeat;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont h5.minus {
+	background:url(../../inheritance/img/img_what01-3.png) left center no-repeat;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont h5.none {
+	background:url(../../inheritance/img/img_what01-4.png) left center no-repeat;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:10px 0 20px;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table th {
+	width:160px;
+	padding:10px;
+	font-weight:bold;
+	border:1px #CCCCCC solid;
+	color:#FFFFFF;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table.plus th {
+	background:#C62D5F;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table.minus th {
+	background: #1D59BE;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table td {
+	padding:10px;
+	border:1px #CCCCCC solid;
+}
+#what #wrapper #cont #main .section.sec01 .section_cont table.none td {
+	padding:10px;
+	text-align:center;
+	background:#F5F5F5;
+	width:50%;
+}
+#what #wrapper #cont #main .section.sec00 .section_cont.sec01 {
+	padding:0 315px 0 0;
+	background:url(../../inheritance/img/img_what01.jpg) right top no-repeat;
+	min-height:166px;
+}
+*html #what #wrapper #cont #main .section.sec00 .section_cont.sec01 {
+	min-height:166px;
+  height: auto !important;
+  height: 166px;
+}
+#what #wrapper #cont #main .section.sec03 .section_cont .type01 {
+	padding:0 315px 0 0;
+	background:url(../../inheritance/img/img_what02.jpg) right top no-repeat;
+}
+#what #wrapper #cont #main .section.sec03 .section_cont .type02 {
+	padding:0 315px 0 0;
+	background:url(../../inheritance/img/img_what03.jpg) right top no-repeat;
+}
+#what #wrapper #cont #main .section.sec03 .section_cont .type03 {
+	padding:0 315px 0 0;
+	background:url(../../inheritance/img/img_what04.jpg) right top no-repeat;
+}
+/*** ------------------------------------------------------------------------------ 
+
+どうやって？？（#how）
+
+-----------------------------------------------------------------------------  ***/
+#how #wrapper #cont #main .section .section_cont {
+	padding:0 250px 0 0;
+	min-height:135px;
+}
+*html #how #wrapper #cont #main .section .section_cont {
+	min-height:135px;
+  height: auto !important;
+  height: 135px;
+}
+#how #wrapper #cont #main .section .section_cont p strong.black {
+	color:#333;
+}
+#how #wrapper #cont #main .section .section_cont.img01 {
+	background:url(../../inheritance/img/img_how01.jpg) right top no-repeat;
+	min-height:250px;
+}
+#how #wrapper #cont #main .section .section_cont.img02 {
+	background:url(../../inheritance/img/img_how02.jpg) right top no-repeat;
+}
+#how #wrapper #cont #main .section .section_cont.img03 {
+	background:url(../../inheritance/img/img_how03.jpg) right top no-repeat;
+}
+#how #wrapper #cont #main .section .section_cont.img04 {
+	background:url(../../inheritance/img/img_how04.jpg) right top no-repeat;
+}
+#how #wrapper #cont #main .section .section_cont.img05 {
+	background:url(../../inheritance/img/img_how05.jpg) right top no-repeat;
+}
+#how #wrapper #cont #main .section .section_cont.img06 {
+	background:url(../../inheritance/img/img_how06.jpg) right top no-repeat;
+}
+#how #wrapper #cont #main .section .section_cont.img07 {
+	background:url(../../inheritance/img/img_how07.jpg) right top no-repeat;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続不動産の名義変更（#change）
+
+-----------------------------------------------------------------------------  ***/
+#change #wrapper #cont #main .section .section_cont {
+	padding:0 200px 0 0;
+	min-height:135px;
+}
+#change #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 250px 0 0;
+	background:url(../../inheritance/img/img_change01.jpg) no-repeat right top;
+	min-height:150px;
+}
+*html #change #wrapper #cont #main .section .section_cont.img01 {
+	min-height:150px;
+  height: auto !important;
+  height: 150px;
+}
+#change #wrapper #cont #main .section .section_cont.img02 {
+	background:url(../../inheritance/img/img_change02.png) no-repeat right top;
+}
+#change #wrapper #cont #main .section .section_cont.img03 {
+	background:url(../../inheritance/img/img_change03.png) no-repeat right top;
+}
+#change #wrapper #cont #main .section .section_cont.img04 {
+	background:url(../../inheritance/img/img_change04.png) no-repeat right top;
+}
+#change #wrapper #cont #main .section .section_cont.img05 {
+	background:url(../../inheritance/img/img_change05.png) no-repeat right top;
+}
+#change #wrapper #cont #main .section .section_cont.img06 {
+	background:url(../../inheritance/img/img_change06.jpg) no-repeat right top;
+	min-height:174px;
+}
+*html #change #wrapper #cont #main .section .section_cont.img06 {
+	min-height:174px;
+  height: auto !important;
+  height: 150px;
+}
+#change #wrapper #cont #main .section .section_cont.img07 {
+	padding:0px;
+}
+#change #wrapper #cont #main .section .section_cont.img07 .flow {
+	position:relative;
+	padding:0 0 20px 170px;
+	min-height:110px;
+}
+*#change #wrapper #cont #main .section .section_cont.img07 .flow {
+	position:relative;
+	padding:0 0 20px 0px;
+	min-height:110px;
+	height: auto !important;
+	height: 110px;
+}
+*#change #wrapper #cont #main .section .section_cont.img07 .flow h5{
+	padding:0 0 0px 170px;
+}
+*#change #wrapper #cont #main .section .section_cont.img07 .flow p{
+	padding:0 0 1em 170px;
+}
+#change #wrapper #cont #main .section .section_cont.img07 .flow .flow_box {
+	background:#669900;
+	height:70px;
+	width:125px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding:20px 10px 0px;
+	font-weight:bold;
+	color:#FFF;
+	font-size:1.2em;
+	text-align:center;
+}
+#change #wrapper #cont #main .section .section_cont.img07 h5 {
+	color:#669900;
+	font-weight:bold;
+	font-size:1.1em;
+	padding:0 0 0.5em;
+}
+#change #wrapper #cont #main .section .section_cont.img07 h6 {
+	font-weight:bold;
+	padding:0 0 5px 170px;
+}
+#change #wrapper #cont #main .section .section_cont.img07 .flow ul {
+	margin:0 0 1em 170px;
+	background:#FEFCE9;
+	padding:5px 10px;
+}
+*html #change #wrapper #cont #main .section .section_cont.img07 h6 {
+	padding:0 0 5px 170px;
+}
+*html #change #wrapper #cont #main .section .section_cont.img07 .flow ul {
+	margin:0 0 1em 170px;
+}
+*:first-child+html #change #wrapper #cont #main .section .section_cont.img07 h6 {
+	padding:0 0 5px 170px;
+}
+*:first-child+html #change #wrapper #cont #main .section .section_cont.img07 .flow ul {
+	margin:0 0 1em 170px;
+}
+#change #wrapper #cont #main .section .section_cont.img07 .flow ul li {
+	padding:3px 0px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続税
+
+-----------------------------------------------------------------------------  ***/
+#tax #wrapper #cont #main .section .section_cont.img01 .example {
+	background:url(../../inheritance/img/img_tax03.jpg) right center no-repeat #FCF7D3;
+	padding:10px 20px;
+	margin:0 0 20px;
+}
+#tax #wrapper #cont #main .section .section_cont.img01 .example strong {
+	color:#333333;
+}
+#tax #wrapper #cont #main .section .section_cont.img02 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax04.jpg) right center no-repeat;
+}
+#tax #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax05.png) right top no-repeat;
+}
+#tax #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax06.png) right top no-repeat;
+}
+#tax #wrapper #cont #main .section .section_cont .img05 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax07.png) right top no-repeat;
+}
+#tax #wrapper #cont #main .section .section_cont .img06 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax08.png) right top no-repeat;
+}
+#tax #wrapper #cont #main .section .section_cont .img07 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax09.png) right top no-repeat;
+	min-height:100px;
+}
+#tax #wrapper #cont #main .section .section_cont .img08 {
+	padding:0 200px 0 0;
+	background:url(../../inheritance/img/img_tax10.png) right top no-repeat;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+相続登記
+
+-----------------------------------------------------------------------------  ***/
+
+#registration #wrapper #cont #main .section .section_cont.img07 h6.number{
+	padding: 0;
+}
+
+#registration #wrapper #cont #main .section .section_cont.img07 ul.bg{
+	background: none repeat scroll 0 0 #fefce9;
+	margin: 0 0 1em 0;
+	padding: 5px 10px;
+}
+
+#registration #wrapper #cont #main .section ul li.list{
+	padding: 0px 0 5px 90px;
+}
+
+#registration #wrapper #cont #main .section ul li span{
+	background: none repeat scroll 0 0 #ff9;
+	padding: 0 5px 0;
+}
+
+#registration #wrapper #cont #main .section ul li.img{
+	position: absolute;
+	top: 13px;
+	right:0;
+}
+
+#registration #wrapper #cont #main .section ul.nagare_box {
+	padding: 10px 10px 20px ;
+	position:relative;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+相続放棄
+
+-----------------------------------------------------------------------------  ***/
+#renounce  #wrapper #cont #main .section-cont h3{
+	padding: 0;
+	height: auto;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox01{
+	position: relative;
+	margin: 0 0 70px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox01 p{
+	position: absolute;
+	left: 20px;
+	bottom: -60px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox02{
+	background: url(../../inheritance/img/renounce/img03.jpg) no-repeat right 30px center #f0f6e3;
+	margin: 0 0 20px;
+	padding: 20px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox02 ul li{
+	font-size: 20px;
+	font-weight: bold;
+	background: url(../../inheritance/img/renounce/icon01.jpg) no-repeat left center;
+	padding: 5px 0 5px 40px;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox03 .tit{
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.4;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox03 .tit span{
+	display: block;
+	font-size: 38px;
+	color: #f00;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox04 .img{
+	margin: 0;
+	padding: 0;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox05 h3{
+	background: url(../../inheritance/img/renounce/icon03.png) no-repeat left center, url(../../common/img/h3_bg.png) bottom no-repeat;
+	padding: 5px 0 5px 40px;
+	color: #000;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox05 ul{
+	margin: 0 0 20px;
+	display: flex;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox05 ul .text{
+	padding: 10px 10px 0 0;
+	display: block;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox06 h2{ margin: 0 0 25px;}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box{
+	background: #CFE2A8;
+	padding: 10px 10px 0;
+	overflow: hidden;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list{
+	background: #fff;
+	width: 320px;
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 20px 10px 10px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list:nth-child(2n){ margin: 0 0 10px 0;}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list .catch{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF6600;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list .text-img_temp{ overflow: hidden;}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list .text-img_temp .img{
+	float: right;
+	margin: 0 10px 0 0;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox06 .box .voice-list .text-img_temp .text{}
+
+
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box01{
+	background: #f0f6e3;
+	position: relative;
+	margin: 40px 0 20px;
+	padding: 10px 0 10px 120px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box01 p{
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box01 ul li{
+	background: url(../../inheritance/img/renounce/icon01.jpg) no-repeat left center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 0 5px 40px;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box02 {
+	margin: 0 0 40px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box02 .img-text_temp{ overflow: hidden;}
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box02 .img-text_temp .img{
+	margin: 0 20px 0 0;
+	float: left;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox07 .box02 .img-text_temp .text li{
+	background: url(../../inheritance/img/renounce/icon02.png) no-repeat left 0px center;
+	font-size: 20px;
+	font-weight: bold;
+	margin:0 0 10px 94px;
+	padding: 7px 0 7px 50px;
+	line-height: 1.2;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox08 .tit{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 30px 0 0;
+	color: #72aa00;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box01 h3{
+	background: url(../../inheritance/img/renounce/bg01.png) repeat-x left bottom 7px;
+	display: inline-block;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px 0;
+	color: #72aa00;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box01 ul{
+	margin: 20px 0 0 0;
+	overflow: hidden;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box01 ul li{
+	float: left;
+	padding: 0 15px 30px;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box02 h3{
+	background: #72AA00;
+	margin: 0;
+	padding: 10px 0 5px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box02 h3 span{
+	font-size: 35px;
+	color: #ff0;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box03{
+	border-right: 3px solid #72AA00;
+	border-bottom: 3px solid #72AA00;
+	border-left: 3px solid #72AA00;
+	background: url(../../inheritance/img/renounce/bg02.png);
+	padding: 20px 20px 10px;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box03 .tit{
+	margin: 0 0 10px;
+	padding: 0;
+	line-height: 1.4;
+	color: #79450E;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox08 .box03 .tit span{
+	font-size: 38px;
+	color: #FF6700;
+}
+
+#renounce  #wrapper #cont #main .section-cont .cBox09 p{
+	padding: 0;
+	border: 3px solid #ccc;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+#renounce  #wrapper #cont #main .section-cont .cBox09 p span{ color: #f00;}
+#renounce  #wrapper #cont #main .section-cont .cBox09 p .text01{ font-size: 42px;}
+#renounce  #wrapper #cont #main .section-cont .cBox09 p .text02{ font-size: 30px;}
+
+
+
+
+
+/*** ------------------------------------------------------------------------------ 
+
+遺言のすすめ
+
+-----------------------------------------------------------------------------  ***/
+#will #wrapper #cont #main .section .section_cont .img01 {
+	padding:0 250px 0 0;
+	background: url(../../will/img/img_will02.jpg) right top no-repeat;
+}
+#will #wrapper #cont #main .section .section_cont .question {
+	background:#FCF7D3 url(../../will/img/img_will04.png) 10px center no-repeat;
+	padding:10px 20px 10px 120px;
+	margin:0 0 20px;
+}
+#will #wrapper #cont #main .section .section_cont .question strong {
+	font-size:1.2em;
+	color:#79AC00;
+}
+#will #wrapper #cont #main .section .section_cont p .name {
+	font-size:1.2em;
+	color:#79AC00;
+}
+#will #wrapper #cont #main .section .section_cont .order {
+	background:#FCF7D3;
+	padding:10px 20px;
+	margin:0 0 20px;
+}
+#will #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 300px 0 0;
+	background: url(../../will/img/img_will06.jpg) right top no-repeat;
+}
+/*** ------------------------------------------------------------------------------ 
+
+遺言書の種類
+
+-----------------------------------------------------------------------------  ***/
+#type #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_type01.png) right top no-repeat;
+	min-height:200px;
+}
+#type #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_type02.png) right top no-repeat;
+	min-height:180px;
+}
+#type #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 220px 0 0;
+	background: url(../../will/img/img_type03.png) right top no-repeat;
+	min-height:190px;
+}
+#type #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_type04.png) right top no-repeat;
+	min-height:292px;
+}
+#type #wrapper #cont #main .section .section_cont.img05 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_type05.png) right top no-repeat;
+	min-height:200px;
+}
+*html #type #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_type01.png) right top no-repeat;
+	min-height:200px;
+	height: auto !important;
+	height: 200px;
+}
+*html #type #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_type02.png) right top no-repeat;
+	min-height:180px;
+	height: auto !important;
+	height: 180px;
+}
+*html #type #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 220px 0 0;
+	background: url(../../will/img/img_type03.png) right top no-repeat;
+	min-height:190px;
+	height: auto !important;
+	height: 190px;
+}
+*html #type #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_type04.png) right top no-repeat;
+	min-height:292px;
+	height: auto !important;
+	height: 292px;
+}
+*html #type #wrapper #cont #main .section .section_cont.img05 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_type05.png) right top no-repeat;
+	min-height:200px;
+	height: auto !important;
+	height: 200px;
+}
+#type #wrapper #cont #main .section .section_cont .img06 {
+	padding:0 150px 0 0;
+	background: url(../../will/img/img_type06.png) right top no-repeat;
+}
+#type #wrapper #cont #main .section .section_cont strong.black.large {
+	display:block;
+	padding:5px 0px;
+}
+#type #wrapper #cont #main .section .section_cont table.merit {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 15px;
+}
+#type #wrapper #cont #main .section .section_cont table.merit tr th {
+	width:50%;
+	text-align:center;
+	padding:10px 0;
+	font-size:1.2em;
+	border:1px #CCCCCC solid;
+}
+#type #wrapper #cont #main .section .section_cont table.merit tr th.red {
+	background:#FFCCCC;
+	color:#990000;
+	font-weight:bold;
+}
+#type #wrapper #cont #main .section .section_cont table.merit tr th.blue {
+	background:#99CCFF;
+	color:#003399;
+	font-weight:bold;
+}
+#type #wrapper #cont #main .section .section_cont table.merit tr td {
+	padding:10px;
+	border:1px #CCCCCC solid;
+}
+#type #wrapper #cont #main .section .section_cont ul {
+	padding:0 0 1em;
+}
+#type #wrapper #cont #main .section .section_cont ul li {
+	list-style:outside disc;
+	padding:5px 0;
+	margin:0 0 0 20px;
+}
+#type #wrapper #cont #main .section .section_cont table.document, #type #wrapper #cont #main .section .section_cont table.document02 {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 15px;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr th, #type #wrapper #cont #main .section .section_cont table.document02 tr th {
+	text-align:center;
+	padding:10px 0;
+	font-size:1.2em;
+	border:1px #CCCCCC solid;
+	background: #7AAD00;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr th.th01 {
+	width:100px;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr th.th02 {
+	width:125px;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr th.th03 {
+	width:65px;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr th.th04 {
+	width:125px;
+}
+#type #wrapper #cont #main .section .section_cont table.document02 tr th.th01 {
+	width:100px;
+}
+#type #wrapper #cont #main .section .section_cont table.document02 tr th.th02 {
+	width:125px;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr td, #type #wrapper #cont #main .section .section_cont table.document02 tr td {
+	padding:10px;
+	border:1px #CCCCCC solid;
+}
+#type #wrapper #cont #main .section .section_cont table.document tr td.center {
+	text-align:center;
+}
+/*** ------------------------------------------------------------------------------ 
+
+遺言でできること
+
+-----------------------------------------------------------------------------  ***/
+#possible #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 130px 0 0;
+	background: url(../../will/img/img_possible02.png) right 50px no-repeat;
+}
+#possible #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_possible04.png) right top no-repeat;
+	min-height:120px;
+}
+#possible #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible05.png) right top no-repeat;
+	min-height:100px;
+}
+#possible #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible06.png) right top no-repeat;
+	min-height:100px;
+}
+#possible #wrapper #cont #main .section .section_cont .img05 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible07.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img06 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible08.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img07 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible09.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img08 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible10.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img09 {
+	padding:0 260px 0 0;
+	background: url(../../will/img/img_possible11.png) right top no-repeat;
+	min-height:110px;
+}
+#possible #wrapper #cont #main .section .section_cont .img10 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible12.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img11 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible13.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img12 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible14.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img13 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible15.png) right top no-repeat;
+	min-height:65px;
+}
+#possible #wrapper #cont #main .section .section_cont .img14 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible16.png) right top no-repeat;
+	min-height:65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 230px 0 0;
+	background: url(../../will/img/img_possible04.png) right top no-repeat;
+	min-height:120px;
+	height: auto !important;
+	height: 120px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible05.png) right top no-repeat;
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible06.png) right top no-repeat;
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img05 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible07.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img06 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible08.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img07 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible09.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img08 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible10.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img09 {
+	padding:0 260px 0 0;
+	background: url(../../will/img/img_possible11.png) right top no-repeat;
+	min-height:110px;
+	height: auto !important;
+	height: 110px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img10 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible12.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img11 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible13.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img12 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible14.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img13 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible15.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+*html #possible #wrapper #cont #main .section .section_cont .img14 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_possible16.png) right top no-repeat;
+	min-height:65px;
+	height: auto !important;
+	height: 65px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+遺言チェックリスト
+
+-----------------------------------------------------------------------------  ***/
+#check #wrapper #cont #main .section .section_cont .img01 {
+	padding:0 190px 0 0;
+	background: url(../../will/img/img_check01.png) right top no-repeat;
+	min-height:140px;
+}
+*html #check #wrapper #cont #main .section .section_cont .img01 {
+	min-height:140px;
+	height: auto !important;
+	height:140px;
+}
+#check #wrapper #cont #main .section .section_cont .img02 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_check02.png) right top no-repeat;
+	min-height:70px;
+}
+#check #wrapper #cont #main .section .section_cont .img03 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_check03.png) right top no-repeat;
+	min-height:70px;
+}
+#check #wrapper #cont #main .section .section_cont .img04 {
+	padding:0 200px 0 0;
+	background: url(../../will/img/img_check04.png) right top no-repeat;
+	min-height:70px;
+}
+#check #wrapper #cont #main .section .section_cont ul {
+	border:1px solid #7AAD00;
+	padding:10px 15px;
+	margin:0 0 15px;
+	font-size:1.1em;
+}
+#check #wrapper #cont #main .section .section_cont ul li {
+	padding:5px 0px 5px 20px;
+	background:url(../../will/img/img_check06.png) left 0.7em no-repeat;
+}
+/*** ------------------------------------------------------------------------------ 
+
+遺言書　書式集
+
+-----------------------------------------------------------------------------  ***/
+#template #wrapper #cont #main .section .section_cont .will_template {
+	border:1px solid #7AAD00;
+	padding:30px 65px 20px;
+	margin:0 0 15px;
+}
+#template #wrapper #cont #main .section .section_cont .will_template h5 {
+	font-weight:bold;
+	text-align:center;
+	font-size:1.2em;
+	padding:0 0 1em;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table {
+	width:100%;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table th {
+	width:60px;
+	vertical-align:top;
+	padding:0 0 1em;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table td {
+	vertical-align:top;
+	padding:0 0 1em;
+}
+#template #wrapper #cont #main .section .section_cont .will_template .align_right {
+	text-align:right;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table tr td .data {
+	margin:0 0 20px;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table tr td .data tr th {
+	width:30px;
+	padding:0px;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table tr td .data tr td {
+	padding:0px;
+}
+#template #wrapper #cont #main .section .section_cont .will_template table tr td .data tr td.name {
+	width:80px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続放棄
+
+-----------------------------------------------------------------------------  ***/
+#renounce #wrapper #cont #main .section .section_cont .img01 {
+	padding:0 190px 0 0;
+	background: url(../../will/img/img_renounce01.png) right top no-repeat;
+}
+#renounce #wrapper #cont #main .section .section_cont .float_r {
+	float:right;
+	padding:0 0 10px 20px;
+}
+#renounce #wrapper #cont #main .section .section_cont dl dt {
+	padding:0 0 15px 40px;
+	background:url(../../will/img/img_renounce06.png) left top no-repeat;
+	font-weight:bold;
+	font-size:1.1em;
+}
+#renounce #wrapper #cont #main .section .section_cont dl dd {
+	padding:0px 0px 20px 40px;
+	border-bottom:1px dotted #699C00;
+	background:url(../../will/img/img_renounce07.png) left top no-repeat;
+	margin:0 0 20px;
+}
+#info #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info01.jpg) left top no-repeat;
+	min-height:190px;
+}
+
+/* 2015.1.22 追記 */
+#renounce #wrapper #cont #main .section .section_cont ul.page_link,
+#note01 #wrapper #cont #main .section .section_cont ul.page_link,
+#note02 #wrapper #cont #main .section .section_cont ul.page_link,
+#threem #wrapper #cont #main .section .section_cont ul.page_link,
+#very #wrapper #cont #main .section .section_cont ul.page_link {
+	overflow: hidden;
+}
+
+#renounce #wrapper #cont #main .section .section_cont ul.page_link li,
+#note01 #wrapper #cont #main .section .section_cont ul.page_link li,
+#note02 #wrapper #cont #main .section .section_cont ul.page_link li,
+#threem #wrapper #cont #main .section .section_cont ul.page_link li,
+#very #wrapper #cont #main .section .section_cont ul.page_link li {
+	width: 295px;
+	margin: 10px 0 0 0;
+	padding: 10px 10px 10px 25px;
+	background: url("../../will/img/img_renounce_arrow.png") no-repeat 10px center #DBE9BF;
+	float: left;
+}
+
+#renounce #wrapper #cont #main .section .section_cont ul.page_link li.li_right,
+#note01 #wrapper #cont #main .section .section_cont ul.page_link li.li_right,
+#note02 #wrapper #cont #main .section .section_cont ul.page_link li.li_right,
+#threem #wrapper #cont #main .section .section_cont ul.page_link li.li_right,
+#very #wrapper #cont #main .section .section_cont ul.page_link li.li_right {
+	float: right;
+}
+
+#renounce #wrapper #cont #main .section .section_cont ul.page_link li a,
+#note01 #wrapper #cont #main .section .section_cont ul.page_link li a,
+#note02 #wrapper #cont #main .section .section_cont ul.page_link li a,
+#threem #wrapper #cont #main .section .section_cont ul.page_link li a,
+#very #wrapper #cont #main .section .section_cont ul.page_link li a {
+	color: #FF6600;
+	font-size: 1.286em;
+	font-weight: bold;
+}
+/* END 2015.1.22 追記 */
+
+
+/*** ------------------------------------------------------------------------------ 
+
+ご相談から解決までの流れ
+
+-----------------------------------------------------------------------------  ***/
+#info #wrapper #cont #main .section .section_cont.img02 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info03.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img03 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info04.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img04 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info05.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img05 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info06.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img06 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info07.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img07 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info08.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img08 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info09.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img09 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info10.jpg) left top no-repeat;
+	min-height:190px;
+}
+#info #wrapper #cont #main .section .section_cont.img10 {
+	padding:0 0 0 300px;
+	background: url(../../info/img/img_info11.jpg) left top no-repeat;
+	min-height:190px;
+}
+*html #info #wrapper #cont #main .section .section_cont {
+	min-height:190px;
+	height: auto !important;
+	height: 190px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+事例紹介
+
+-----------------------------------------------------------------------------  ***/
+#exsample #wrapper #cont #main .section {
+	position:relative;
+}
+#exsample #wrapper #cont #main .section .name {
+	position:absolute;
+	right:0px;
+	top:15px;
+}
+#exsample #wrapper #cont #main .section .section_cont strong {
+	font-size:1.2em;
+	color:#333333;
+}
+#exsample #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example01.jpg) right top no-repeat;
+	min-height:190px;
+}
+#exsample #wrapper #cont #main .section .section_cont.img02 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example02.jpg) right top no-repeat;
+	min-height:190px;
+}
+#exsample #wrapper #cont #main .section .section_cont.img03 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example03.jpg) right top no-repeat;
+	min-height:190px;
+}
+#exsample #wrapper #cont #main .section .section_cont.img04 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example04.jpg) right top no-repeat;
+	min-height:190px;
+}
+#exsample #wrapper #cont #main .section .section_cont.img05 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example05.jpg) right top no-repeat;
+	min-height:190px;
+}
+#exsample #wrapper #cont #main .section .section_cont.img06 {
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_example06.jpg) right top no-repeat;
+	min-height:190px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+料金一覧
+
+-----------------------------------------------------------------------------  ***/
+#price #wrapper #cont #main .section.first{
+	padding:0;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .left {
+	background:#FCF7D3 url(../../info/img/img_price02.png) 226px 10px no-repeat;
+	border-radius:5px;
+	padding:10px;
+	float:left;
+	width:310px;
+	min-height:119px;
+}
+*html #price #wrapper #cont #main .section .section_cont.clearfix .left {
+	border-radius:0px;
+	padding:10px 0px 10px 10px;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .left a {
+	display:block;
+	background:url(../../info/img/img_price01.png) no-repeat;
+	width:183px;
+	height:65px;
+	line-height:65px;
+	color:#FFFFFF;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0 0 0 30px;
+	text-decoration:none;
+	margin:0 0 10px;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .left p {
+	padding:0 104px 0 0;
+	margin:0px;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .right {
+	background:#FCF7D3 url(../../info/img/img_price04.png) 220px 10px no-repeat;
+	border-radius:5px;
+	padding:10px;
+	float:right;
+	width:310px;
+	min-height:119px;
+}
+*html #price #wrapper #cont #main .section .section_cont.clearfix .right {
+	border-radius:0px;
+	padding:10px 0px 10px 10px;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .right a {
+	display:block;
+	background:url(../../info/img/img_price03.png) no-repeat;
+	width:183px;
+	height:65px;
+	line-height:65px;
+	color:#FFFFFF;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0 0 0 30px;
+	text-decoration:none;
+	margin:0 0 10px;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .left a:hover {
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .right a:hover {
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+}
+#price #wrapper #cont #main .section .section_cont.clearfix .right p {
+	padding:0 104px 0 0;
+	margin:0px;
+}
+#price #wrapper #cont #main .price01 .section h2, #price #wrapper #cont #main .price02 .section h2 {
+	background:none;
+	padding:0 0 15px;
+}
+#price #wrapper #cont #main .price01 .section h3 {
+	background: url(../../info/img/img_price_h3.png) no-repeat bottom;
+	color:#333;
+}
+#price #wrapper #cont #main .price02 .section h3 {
+	color:#333;
+}
+#price #wrapper #cont #main .price02 .section.last h3 {
+	color:#669900;
+}
+#price #wrapper #cont #main .price01 .section h3 span {
+	display:inline-block;
+	padding:0 10px 0 0;
+	color:#DD1552;
+}
+#price #wrapper #cont #main .price02 .section h3 span {
+	display:inline-block;
+	padding:0 10px 0 0;
+	color:#669900;
+}
+#price #wrapper #cont #main .price01 .section {
+	background:url(../../info/img/img_price07.png) center bottom no-repeat;
+	padding:0 0 45px;
+}
+#price #wrapper #cont #main .price02 .section {
+	background:url(../../info/img/img_price15.png) center bottom no-repeat;
+	padding:0 0 45px;
+}
+#price #wrapper #cont #main .price01 .section.last, #price #wrapper #cont #main .price02 .section.last {
+	background:none;
+	padding:0px 0 30px;
+}
+#price #wrapper #cont #main .price01 .section .section_cont strong {
+	font-weight:bold;
+	font-size:1.2em;
+	color:#333333;
+}
+#price #wrapper #cont #main .price02 .section .section_cont strong {
+	font-weight:bold;
+	font-size:1.2em;
+	color:#333333;
+}
+#price #wrapper #cont #main .price01 .section .section_cont .red {
+	font-size:1.4em;
+}
+#price #wrapper #cont #main .price02 .section .section_cont .green {
+	font-size:1.4em;
+	color:#6A9D00;
+}
+#price #wrapper #cont #main .price01 .section .section_cont table.type01 {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 1em;
+}
+#price #wrapper #cont #main .price01 .section .section_cont table.type01 th {
+	background: #FDDFE9;
+	padding:10px 20px;
+	width:130px;
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price01 .section .section_cont table.type01 .align_center th {
+	text-align:center;
+}
+#price #wrapper #cont #main .price01 .section .section_cont table.type01 td {
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price01 .section .section_cont .img03 {
+	background:url(../../info/img/img_price09.png) 540px 20px no-repeat;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type01 {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 1em;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type01 th {
+	background: #EEF3DE;
+	padding:10px 20px;
+	width:130px;
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type01 .align_center th {
+	text-align:center;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type01 td {
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 1em;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 th {
+	background: #EEF3DE;
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+	text-align:center;
+	font-weight:bold;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 th.top {
+	width:150px;
+	padding:10px 0px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td {
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+	vertical-align:top;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td em {
+	font-weight:bold;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td strong {
+	font-size:1em;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td .large {
+	font-size:1.3em;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td table {
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td table th.percent {
+	width:45px;
+	padding:10px 2px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td table td {
+	font-size:0.84em;
+	padding:10px 5px;
+	border:1px #CCCCCC solid;
+}
+#price #wrapper #cont #main .price02 .section .section_cont table.type02 td table td.number {
+	text-align:center;
+}
+#price #wrapper #cont #main .price02 .section .section_cont.img07 p em {
+	font-weight:bold;
+	color:#669900;
+}
+#price #wrapper #cont #main .price01 .section .section_cont.img01 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price06.png) right 20px no-repeat;
+	min-height:190px;
+}
+#price #wrapper #cont #main .price01 .section .section_cont .img02 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price08.png) right 20px no-repeat;
+	min-height:190px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont.img04 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price11.png) right 20px no-repeat;
+	min-height:150px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont.img05 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price12.png) right 20px no-repeat;
+	min-height:150px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont.img06 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price13.png) right 0px no-repeat;
+	min-height:150px;
+}
+*html #price #wrapper #cont #main .price02 .section .section_cont.img06 {
+	min-height:150px;
+	height: auto !important;
+	height: 150px;
+}
+#price #wrapper #cont #main .price02 .section .section_cont .img07 {
+	padding:0 110px 0 0;
+	background: url(../../info/img/img_price14.png) right bottom no-repeat;
+	min-height:150px;
+}
+#price #wrapper #cont #main .price02 .section.last .section_cont .att li{
+	margin:0 0 10px;
+	text-indent:-1em;
+	padding:0 0 0 1em;
+}
+/*** ------------------------------------------------------------------------------ 
+
+よくあるご質問
+
+-----------------------------------------------------------------------------  ***/
+
+#faq #wrapper #cont #main .section .section_cont dt {
+	font-size:1.1em;
+	font-weight:bold;
+	padding:0 0 0 40px;
+	background:url(../../will/img/img_renounce06.png) left 0em no-repeat;
+}
+#faq #wrapper #cont #main .section .section_cont dd {
+	padding:10px 0 15px 40px;
+	background:url(../../will/img/img_renounce07.png) left 0.7em no-repeat;
+}
+#faq #wrapper #cont #main .section .section_cont span {
+	padding:10px 15px;
+	background: #F8E4F0;
+	display:block;
+}
+/*** ------------------------------------------------------------------------------ 
+
+事務所案内
+
+-----------------------------------------------------------------------------  ***/
+#office #wrapper #cont #main .section .section_cont .img01{
+	padding:0 270px 0 0;
+	background: url(../../info/img/img_office02.jpg) right 0px no-repeat;
+	min-height:180px;
+}
+#office #wrapper #cont #main .section .section_cont .img02{
+	padding:0 0 0 270px;
+	background: url(../../info/img/img_office03.jpg) left 0px no-repeat;
+	min-height:180px;
+}
+#office #wrapper #cont #main .section .section_cont table {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 1em;
+}
+#office #wrapper #cont #main .section .section_cont table th {
+	background: #EDF5E0;
+	padding:10px 20px;
+	width:80px;
+	border:1px #CCCCCC solid;
+}
+#office #wrapper #cont #main .section .section_cont table td {
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+}
+#present #wrapper #cont #main .section .section_cont .point {
+	font-size:1.4em;
+	font-weight:bold;
+}
+#office #wrapper #cont #main .section .section_cont .officephoto {
+	margin:0 0 0 -20px;
+	padding:0 0 -20px;
+	position:relative;
+	}
+#office #wrapper #cont #main .section .section_cont .officephoto li {
+	float: left;
+	padding:0 0 20px;
+	margin:0 0 0 20px;
+}
+*html #office #wrapper #cont #main .section .section_cont .officephoto li {
+	margin:0 0 0 5px;
+}
+*:first-child+html #office #wrapper #cont #main .section .section_cont .officephoto li {
+	margin:0 0 0 20px;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+用語辞典
+
+-----------------------------------------------------------------------------  ***/
+#dictionary #wrapper #cont #main .section .section_cont .img01 {
+	padding:0 0px 0 100px;
+	background: url(../../info/img/img_dictionary01.png) left 0px no-repeat;
+	min-height:70px;
+}
+#dictionary #wrapper #cont #main .section .section_cont table {
+	width:100%;
+	border:1px #CCCCCC solid;
+	margin:0 0 1em;
+	font-size:1.16em;
+}
+#dictionary #wrapper #cont #main .section .section_cont table th {
+	background: #7AAD00;
+	padding:10px 20px;
+	color:#FFF;
+	border:1px #CCCCCC solid;
+	text-align:center;
+	font-weight:bold;
+}
+#dictionary #wrapper #cont #main .section .section_cont table th.gyou {
+	width:50px;
+}
+#dictionary #wrapper #cont #main .section .section_cont table td {
+	padding:10px 20px;
+	border:1px #CCCCCC solid;
+	vertical-align:top;
+}
+#dictionary #wrapper #cont #main .section .section_cont table td ul li{
+	float:left;
+	font-weight:bold;
+	white-space: nowrap;
+}
+#dictionary #wrapper #cont #main .section .section_cont table td ul li a{
+	color:#669900;
+	text-decoration:none;
+}
+#dictionary #wrapper #cont #main .section .section_cont dl dd a{
+	font-weight:bold;
+	color:#669900;
+	text-decoration:none;
+}
+#dictionary #wrapper #cont #main .section .section_cont dl {
+	border-bottom:1px dotted #699C00;
+	margin:0 0 20px;
+	padding:0 0 20px;
+	font-size:1.16em;
+}
+#dictionary #wrapper #cont #main .section .section_cont dl dt {
+	width:135px;
+	padding:0px 15px;
+	position: left top;
+    display: block;
+    float: left;
+	color:#669900;
+	font-weight:bold;
+}
+#dictionary #wrapper #cont #main .section .section_cont dl dt span {
+	font-size:0.82em;
+}
+#dictionary #wrapper #cont #main .section .section_cont dl dd {
+	width:495px;
+	display: block;
+    margin: 0 0 0 170px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+お問い合わせ
+
+-----------------------------------------------------------------------------  ***/
+#contact #wrapper #cont #sub {
+	display:none;
+}
+#contact #wrapper #cont #main {
+	width: 100%;
+}
+#contact #wrapper #cont #main p,
+#contact #wrapper #cont #main table{
+	font-size:1.167em;
+}
+#contact #wrapper #cont #main p.flow{
+	margin:0 0 20px;
+}
+#contact #wrapper #cont #main .topicpass{
+	font-size:0.96em;
+}
+#contact #wrapper #cont #main .section_cont{
+	margin:0;
+}
+#contact #wrapper #cont #main .section .section_cont.bg-tel{
+	background: url(../../info/img/img_contact_tel.png) right 80px no-repeat;
+}
+
+#contact #wrapper #cont #main .section .table-box {
+	border:2px #72AA00 solid;
+	width:100%;
+	padding:20px 0;
+}
+#contact #wrapper #cont #main .section table {
+	width:100%;
+}
+#contact #wrapper #cont #main .section table th{
+	width:170px;
+	padding:15px 15px 15px 40px;
+	vertical-align:top;
+	color:#7AAD00;
+	font-weight: bold;
+	background: url(../../info/img/img_contact_arrow01.png) 25px 25px no-repeat;
+}
+#contact #wrapper #cont #main .section table th .attention{
+	font-weight: normal;
+	color:#333333;
+}
+#contact #wrapper #cont #main .section table th.sub-title{
+	background: none;
+	padding:0 15px;
+}
+*html #contact #wrapper #cont #main .section table th.sub-title{
+	width:685px;
+}
+*:first-child+html #contact #wrapper #cont #main .section table th.sub-title{
+	width:685px;
+}
+#contact #wrapper #cont #main .section table th.sub-title div{
+	background: url(../../info/img/img_contact_arrow02.png) 10px center no-repeat #7AAD00;
+	padding:0 25px;
+	color:#FFFFFF;
+	font-weight: bold;
+	line-height:27px;
+}
+#contact #wrapper #cont #main .section table td {
+	padding:15px 20px 10px 0px;
+}
+#contact #wrapper #cont #main .section table td input{
+	margin:3px 0px;
+}
+#contact #wrapper #cont #main .section table td input.width_m{
+	width:80%;
+}
+#contact #wrapper #cont #main .section table td input.width_s{
+	width:20%;
+}
+#contact #wrapper #cont #main .section table td ul li{
+	float:left;
+	width:50%;
+	padding:0 0 5px;
+}
+#contact #wrapper #cont #main .section table td textarea{
+	width:100%;
+	height:250px;
+}
+#contact #wrapper #cont #main .section .button{
+	text-align:center;
+	padding:20px 0px;
+}
+#contact #wrapper #cont #main .section .button img{
+	vertical-align:top;
+	padding:0 0 0 10px;
+}
+#contact #wrapper #cont #main .section .section_cont dl dt {
+	padding:0 0 10px 40px;
+	background:url(../../will/img/img_renounce06.png) left top no-repeat;
+	font-weight:bold;
+	font-size:1.1em;
+	border-bottom:1px dotted #699C00;
+	margin:10px 0 0;
+}
+#contact #wrapper #cont #main .section .section_cont dl dd {
+	padding:10px 0px 20px 40px;
+	background:url(../../will/img/img_renounce07.png) left 0.5em no-repeat;
+}
+#contact #wrapper #cont #main .section .section_cont .welcome01 {
+	background:#FDFCE1 url(../../info/img/img_contact03.png) 485px 80px no-repeat;
+	padding:15px 20px;
+	margin:10px 0 20px;
+}
+#contact #wrapper #cont #main .section .section_cont .welcome01 ul li{
+	background:url(../../info/img/arrow.jpg) left center no-repeat;
+	padding:5px 0 5px 20px;
+	font-weight:bold;
+	color:#79AC00;
+	font-size:1.1em;
+}
+#contact #wrapper #cont #main .section .section_cont .welcome02 {
+	background:#FDFCE1 url(../../info/img/img_contact05.png) 331px 60px no-repeat;
+	padding:15px 20px;
+	margin:0 0 20px;
+}
+#contact #wrapper #cont #main .section .section_cont .welcome02 strong{
+	color:#72AA00;
+	font-size:1.1em;
+}
+#contact #wrapper #cont #main .section table tr .check_box input{
+	margin:0 0.5em 0 0;	
+}
+/*** ------------------------------------------------------------------------------ 
+
+スタッフ紹介
+
+-----------------------------------------------------------------------------  ***/
+
+#staff #cont #main h2 {
+	padding:0 0 0 20px;
+	line-height:55px;
+	height:50px;
+	font-size:2em;
+	font-weight:bold;
+	margin:0 0 0px;
+	background:url(../../common/img/bg_01.jpg) no-repeat;
+}
+#staff #cont #main .section.clearfix.person_box h3 {
+	padding:0 0 20px;
+	background:none;
+	margin:0px;
+	height:auto;
+	line-height:normal;
+}
+#staff #cont #main .section.clearfix.person_box .left {
+	float:left;
+	width:152px;
+}
+#staff #cont #main .section.clearfix.person_box .left img{
+	padding:0 0 0 10px;
+}
+#staff #cont #main .section.clearfix.person_box .right {
+	float:right;
+	width:510px;
+	padding:0 10px 0 0;
+}
+#staff #cont #main .section.clearfix.person_box {
+	border-bottom:1px dotted #999999;
+	padding:0px 0 35px;
+	margin:0 0 35px;
+	clear:both;
+}
+#staff #cont #main .section.clearfix.person_box.last{
+	margin:0 0 30px;
+}
+#staff #cont #main .section.clearfix.person_box p{
+	padding:0 10px;
+}
+#staff #cont #main .section.clearfix.person_box p.name{
+	font-size:1.4em;
+	font-weight:bold;
+}
+#staff #cont .section.clearfix.person_box .right table {
+	width:100%;
+}
+#staff #cont .section.clearfix.person_box .right table tr th{
+	padding:0px 5px;
+	width:130px;
+	vertical-align:top;
+}
+#staff #cont .section.clearfix.person_box.right table tr td{
+	padding:0px 5px 0px 10px;
+}
+#staff #cont .section.clearfix.person_box .right table tr.forte td{
+	padding:10px 0px 0px 0px;
+}
+*html #staff #cont .section.clearfix.person_box .right table tr.forte td{
+	padding:10px 5px 0px 10px;
+}
+#staff #cont .section.clearfix.person_box .right table tr.forte th{
+	padding:10px 5px 0px;
+}
+#staff #cont .section.clearfix.person_box .right .teacher_name {
+	padding:0 0 10px;
+}
+#staff #cont .section.clearfix.person_box .right .greeting {
+	padding:1em 0 0;
+}
+#staff #cont .section.clearfix.person_box .right .greeting p.topic {
+	font-weight: bold;
+}
+#staff #cont .section.clearfix.person_box .right .greeting strong {
+	color:#333333;
+}
+#staff #cont .section.combination p {
+	background:#EBEBEB;
+	padding:15px;
+	border-radius:5px;
+}
+#staff #wrapper #cont #main h2{
+	color:#333;
+	padding:0 0 0 20px;
+	line-height:65px;
+	height:57px;
+	font-size:2em;
+	font-weight:bold;
+	margin:0 0 0px;
+	background:url(../../common/img/bg_01.jpg) no-repeat;
+}
+#staff #wrapper #cont #main .section h3{
+	color:#333;
+	padding:0 0 0 20px;
+	line-height:65px;
+	height:57px;
+	font-size:2em;
+	font-weight:bold;
+	margin:0 0 0px;
+	background:url(../../common/img/bg_01.jpg) no-repeat;
+}
+#staff #wrapper #cont #main .section .section-cont.staff.clearfix{
+	padding:0 0 0 20px;
+	margin:0 20px 0 0;
+	position:relative;
+}
+#staff #wrapper #cont #main .section .section-cont.staff.clearfix .left{
+	float:left;
+	margin:0 18px 0 0;
+	
+}
+#main .section h4 {
+	color:#333;
+	padding:0 0 0 10px;
+	margin:0 0 15px 0;
+	line-height:50px;
+	height:50px;
+	font-size:1.286em;
+	font-weight:bold;
+	margin:10px 0 20px;
+	border:none;
+	background:url(../../common/img/h3_bg.png) bottom no-repeat;
+}
+#staff #wrapper #cont #main .section .section-cont.staff .right .btn_profile{
+	position:absolute;
+	right:0;
+	bottom:0;
+	padding:0;
+}
+#staff #wrapper #cont .section{
+	margin:0 0 20px;
+}
+#staff #wrapper #cont #main .section .section-cont .section-cont.staff_in div .float_l{
+	float:left;
+	margin:0 10px 0 0;
+}
+#staff #wrapper #cont #main .section .section-cont .section-cont.staff_in{
+	margin:0 0 20px;
+}
+
+#staff #wrapper #cont #main .section .section-cont .section-cont.staff_in div:nth-child(odd){
+	float:left;
+	margin:0 0 20px;
+}
+#staff #wrapper #cont #main .section .section-cont .section-cont.staff_in div:nth-child(even){
+	float:right;
+	margin:0 0 20px;
+}
+#staff #wrapper #cont #main .section .section-cont.clearfix .section-cont.staff_in.clearfix div{
+	position:relative;
+}
+#staff #wrapper #cont #main .section .section-cont .section-cont.staff_in .float_l .btn_profile{
+	position:absolute;
+	bottom:-115px;
+	right:10px;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+提携
+
+-----------------------------------------------------------------------------  ***/
+
+#teikei #cont #main h2 {
+	padding:0 0 0 20px;
+	line-height:55px;
+	height:50px;
+	font-size:2em;
+	font-weight:bold;
+	margin:0 0 0px;
+	background:url(../../common/img/bg_01.jpg) no-repeat;
+}
+#teikei #cont #main .section.clearfix.person_box h3 {
+	padding:0 0 20px;
+	background:none;
+	margin:0px;
+	height:auto;
+	line-height:normal;
+}
+#teikei #cont #main .section.clearfix.person_box .left {
+	float:left;
+	width:152px;
+}
+#teikei #cont #main .section.clearfix.person_box .left img{
+	padding:0 0 0 10px;
+}
+#teikei #cont #main .section.clearfix.person_box .right {
+	float:right;
+	width:510px;
+	padding:0 10px 0 0;
+}
+#teikei #cont #main .section.clearfix.person_box {
+	border-bottom:1px dotted #999999;
+	padding:0px 0 35px;
+	margin:0 0 35px;
+	clear:both;
+}
+#teikei #cont #main .section.clearfix.person_box.last{
+	margin:0 0 30px;
+}
+#teikei #cont #main .section.clearfix.person_box p{
+	padding:0 10px;
+}
+#teikei #cont #main .section.clearfix.person_box p.name{
+	font-size:1.4em;
+	font-weight:bold;
+}
+#teikei #cont .section.clearfix.person_box .right table {
+	width:100%;
+}
+#teikei #cont .section.clearfix.person_box .right table tr th{
+	padding:0px 5px;
+	width:130px;
+	vertical-align:top;
+}
+#teikei #cont .section.clearfix.person_box.right table tr td{
+	padding:0px 5px 0px 10px;
+}
+#teikei #cont .section.clearfix.person_box .right table tr.forte td{
+	padding:10px 0px 0px 0px;
+}
+*html #teikei #cont .section.clearfix.person_box .right table tr.forte td{
+	padding:10px 5px 0px 10px;
+}
+#teikei #cont .section.clearfix.person_box .right table tr.forte th{
+	padding:10px 5px 0px;
+}
+#teikei #cont .section.clearfix.person_box .right .teacher_name {
+	padding:0 0 10px;
+}
+#teikei #cont .section.clearfix.person_box .right .greeting {
+	padding:1em 0 0;
+}
+#teikei #cont .section.clearfix.person_box .right .greeting p.topic {
+	font-weight: bold;
+}
+#teikei #cont .section.clearfix.person_box .right .greeting strong {
+	color:#333333;
+}
+#teikei #cont .section.combination p {
+	background:#EBEBEB;
+	padding:15px;
+	border-radius:5px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+スタッフ紹介
+
+-----------------------------------------------------------------------------  ***/
+#privacy #cont .section .section_cont dl{
+}
+
+#privacy #cont .section .section_cont dt{
+	margin:0px;
+	font-weight: bold;
+}
+
+#privacy #cont .section .section_cont dd{
+	margin:5px 0px 40px 0px;
+}
+
+
+#privacy #cont .section .section_cont dd ul li{
+	list-style-position: outside;
+	list-style-type: disc;
+	margin:0px 0px 10px 2.5em;
+}
+#privacy #cont .section .section_cont .align_right {
+	text-align: right;
+}
+#privacy #cont .section .section_cont ul li{
+	list-style-position: outside;
+	list-style-type: disc;
+	margin:0px 0px 15px 15px;
+	line-height: 135%;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+サイトマップ
+
+-----------------------------------------------------------------------------  ***/
+#sitemap #cont .section .section_cont ul li{
+	margin:15px 0px 5px 0px;
+}
+#sitemap #cont .section .section_cont ul li ul li{
+	margin-left:40px;
+}
+#sitemap #cont .section .section_cont ul li a{
+	padding:10px 0px 10px 35px;
+	background: url(../../common/img/arrow_green.png) 20px center no-repeat;
+	text-decoration:none;
+	font-weight:bold;
+	color:#4A6B18;
+}
+#sitemap #cont .section .section_cont ul li ul li a{
+	padding:10px 0px 10px 35px;
+	background: url(../../common/img/arrow_green02.png) 20px center no-repeat;
+	text-decoration:none;
+	color:#4A6B18;
+	font-weight:normal;
+}
+#sitemap #cont .section .section_cont ul li a:hover{
+	color: #FF6600;
+	text-decoration:none;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+相続ブログ・ニューストピックス（wordpress）
+
+-----------------------------------------------------------------------------  ***/
+#main .page_table {
+	width:100%;
+}
+#main .page_table th {
+	background:url(../../img/arrow_green.png) 10px center no-repeat;
+	padding:15px 0 15px 25px;
+	width:100px;
+	border-bottom:1px dotted #699C00;
+	color:#72AA00;
+	font-weight:bold;
+}
+#main .page_table td {
+	border-bottom:1px dotted #699C00;
+	padding:15px 0 15px 25px;
+}
+
+#wrapper #cont #main .wp_cont {
+	padding:0 0 30px;
+	margin:0 20px 0;
+}
+#wrapper #cont #main .wp_cont .date{
+	text-align: right;
+	margin:0 0 1em;
+}
+#wrapper #cont #main .wp_cont p {
+	padding:0;
+	margin:0 0 0px 0px;
+}
+
+#navigation table {
+	width:700px;
+	text-align:center;
+	border-top: 1px dotted #CCC;
+	padding: 15px 0px 0px;
+}
+#navigation table td {
+	padding: 20px 0px 40px;
+}
+#navigation .next-back {
+	width:700px;
+	text-align:center;
+	padding: 30px 0px 40px;
+}
+#sub .sub_nav ul {
+	border-right:solid 2px #72AA00;
+	border-left:solid 2px #72AA00;
+	border-bottom:solid 2px #72AA00;
+	margin:0 0 20px;
+}
+body.info #sub .sub_nav ul {
+	border-top:solid 2px #72AA00;
+	border-right:solid 2px #72AA00;
+	border-left:solid 2px #72AA00;
+	border-bottom:solid 2px #72AA00;
+	margin:0 0 20px;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続ブログカテゴリー（wordpress）
+
+-----------------------------------------------------------------------------  ***/
+body.info #sub .category ul {
+	border-right:solid 2px #72AA00;
+	border-left:solid 2px #72AA00;
+	border-bottom:solid 2px #72AA00;
+	margin:0 0 20px;
+}
+body.info #sub .category ul li a{
+	background:#FCF7D3;
+	display:block;
+	background: url(../../common/img/arrow_green02.png) 10px center no-repeat;
+	padding:7px 10px 7px 25px;
+	border-top:1px dotted #72AA00;
+	text-decoration:none;
+	zoom: 1;
+	font-weight:bold;
+}
+body.info #sub .category ul li.first a{
+	border-top: none;
+}
+body.info #sub .category ul li a:hover{
+	background:#F59900;
+	color:#FFFFFF;
+}
+/*** ------------------------------------------------------------------------------ 
+
+セミナー（#seminar）
+
+-----------------------------------------------------------------------------  ***/
+#seminar #wrapper #cont #main .section .section_cont {
+	margin:0 15px;
+}
+#seminar #wrapper #cont #main .section .section_cont .date {
+	text-align: right;
+	font-weight: bold;
+	margin:-1em 0 0;
+}
+*html #seminar #wrapper #cont #main .section .section_cont .date{
+	margin:0 0 0;
+}
+*:first-child+html #seminar #wrapper #cont #main .section .section_cont .date{
+	margin:0 0 0;
+}
+#seminar #wrapper #cont #main .section .section_cont .left {
+	float:left;
+	width:335px;
+	min-height:229px;
+	margin:0 0 20px;
+}
+*html #seminar #wrapper #cont #main .section .section_cont .left {
+	min-height:229px;
+	height: auto !important;
+	height:229px;
+}
+#seminar #wrapper #cont #main .section .section_cont .right {
+	float:right;
+	width:335px;
+	min-height:229px;
+	margin:0 0 20px;
+}
+*html #seminar #wrapper #cont #main .section .section_cont .right {
+	min-height:229px;
+	height: auto !important;
+	height:229px;
+}
+#seminar #wrapper #cont #main .section .section_cont .right.text01{
+	padding:75px 0 0 10px;
+	min-height:154px;
+	width:325px;
+}
+#seminar #wrapper #cont #main .section .section_cont .right.text02{
+	padding:15px 0 0 10px;
+	min-height:214px;
+	width:325px;
+}
+#seminar #wrapper #cont #main .section .section_cont .right.text03{
+	padding:15px 0 0 10px;
+	min-height:214px;
+	width:325px;
+}
+#seminar #wrapper #cont #main .section .section_cont strong{
+	color:#72AA00;
+}
+
+#seminar #wrapper #cont #main .section .section_cont .top-text img{
+	padding:15px 0 0;
+}
+/*** ------------------------------------------------------------------------------ 
+
+小冊子プレゼント　その2（#present）
+
+-----------------------------------------------------------------------------  ***/
+#present #wrapper #cont #main .section .section_cont .sample {
+	margin:0 0 20px;
+}
+#present #wrapper #cont #main .section .section_cont .sample li {
+	float:left;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+お客様の声（#voice）
+
+-----------------------------------------------------------------------------  ***/
+#voice #wrapper #cont #main .section{
+	clear:both;
+}
+#voice #wrapper #cont #main .section h2{
+	margin:0;
+}
+#voice #wrapper #cont #main .section .section_cont h4{
+	margin:0 0 20px;
+	height: auto;
+	background-position: left 0.6em;
+}
+#voice #wrapper #cont #main .section .section_cont .left{
+	float:left;
+	width:195px;
+}
+#voice #wrapper #cont #main .section .section_cont .right{
+	float:right;
+	width:440px;
+}
+#voice #wrapper #cont #main .section .section_cont .right h5{
+	font-weight: bold;
+	margin:0 0 10px;
+	background: #FFF5DD;
+	padding:5px 15px;
+}
+#voice #wrapper #cont #main .section .section_cont .right .right-cont{
+	padding:0 0 5px;
+}
+
+#home #wrapper #cont #main .voice02 .section{
+	clear:both;
+}
+#home #wrapper #cont #main .voice02 .section h2{
+	margin:0;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont h4{
+	margin:0 0 20px;
+	height: auto;
+	background-position: left 0.6em;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .left{
+	float:left;
+	width:195px;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .right{
+	float:right;
+	width:440px;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .right h5{
+	font-weight: bold;
+	margin:0 0 10px;
+	background: #FFF5DD;
+	padding:5px 15px;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .right .right-cont{
+	padding:0 0 5px;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .right .right-cont ul li{
+	list-style:circle outside none;
+	margin:0 0 0 20px;
+}
+#home #wrapper #cont #main .voice02 .section .section_cont .right .right-cont ul li strong{
+	color:#DC1150;
+}
+
+
+
+/*** ------------------------------------------------------------------------------ 
+
+名義がそのままになっている不動産はないですか？（#estate）
+銀行口座凍結解除（#estate）
+
+-----------------------------------------------------------------------------  ***/
+#estate #wrapper #cont #main .section p{
+	padding:0;
+}
+#estate #wrapper #cont #main .section p.ma{
+	padding:0 0 1em;
+}
+#estate #wrapper #cont #main .section p.absolute,
+#estate #wrapper #cont #main .section p.absolute02{
+	position:relative;
+}
+#estate #wrapper #cont #main .section p.absolute span{
+	position: absolute;
+	left:20px;
+	bottom:20px;
+}
+#estate #wrapper #cont #main .section p.absolute02 span{
+	position: absolute;
+	left:20px;
+	bottom:65px;
+}
+#estate #wrapper #cont #main .welcome02 {
+	background:#FDFCE1 url(../../info/img/img_contact05.png) 331px 60px no-repeat;
+	padding:15px 20px;
+	margin:0 0 20px;
+}
+#estate #wrapper #cont #main .welcome02 p{
+	padding:0 0 1em;
+}
+#estate #wrapper #cont #main .welcome02 strong{
+	color:#72AA00;
+	font-size:1.1em;
+}
+
+
+
+#example #wrapper #cont #main .section .section_cont ul li{
+	padding:0 0 20px 20px;
+	margin:0 0 20px;
+	border-bottom:1px dotted #699C00;
+	background:url(../img/arrow_green.png) no-repeat scroll left 7px;
+}
+
+
+#example-detail #wrapper #cont #main .section .section_cont p .st{
+	font-weight:bold;
+	color:#DC1150;
+}
+#home #wrapper #cont #main .section.solution .link_area{
+	margin:0 0 20px;
+}
+#home #wrapper #cont #main .section.solution .link_area li{
+	background:url(../img/arrow_green.png) no-repeat scroll left 7px;
+	padding:0 0 0 20px;
+}
+/*#main .ex-banner{
+	margin:-23px 0 0px;
+	position:relative;
+}*/
+#main .ex-banner{
+	margin:0px;
+	padding:15px 0 0;
+	position:relative;
+}
+#contact #main .section.link-list{
+	display:none;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+相続税診断（#diagnosis）
+
+-----------------------------------------------------------------------------  ***/
+
+#diagnosis #wrapper #cont #main .section .section_cont.img01 .right{
+	float:right;
+	padding:0 0 0 20px;
+}
+
+/*** ------------------------------------------------------------------------------ 
+
+2015年相続税改正（#tax2015）
+
+-----------------------------------------------------------------------------  ***/
+
+#tax2015 #wrapper #cont #main .section .section_cont.img01 {
+	padding:0 280px 0 0;
+	background:url(../../inheritance/img/img_tax201501.png) no-repeat right top;
+	min-height:200px;
+	
+}	
+
+#tax2015 #wrapper #cont #main .section .section_cont.img02 {
+	padding:0 280px 0 0;
+	background:url(../../inheritance/img/img_tax201502.png) no-repeat right top;
+	min-height:280px;
+	
+}
+
+#tax2015 #wrapper #cont #main #menu03 table {
+	margin:0px 20px 20px;
+	width:670px;
+	text-align:center;
+	border:1px solid #CCC;
+}
+#tax2015 #wrapper #cont #main #menu03 table th {
+	background: #7AAD00;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:1px solid #CCC;
+	padding:5px 0;
+	text-align:center;
+}
+#tax2015 #wrapper #cont #main #menu03 table th.th01 {
+	width:220px;
+}
+#tax2015 #wrapper #cont #main #menu03 table th.th02 {
+	width:200px;
+}
+#tax2015 #wrapper #cont #main #menu03 table td {
+	padding:10px 0;
+	text-align:center;
+	border:1px solid #CCC;
+}
+
+#tax2015 #wrapper #cont #main #menu02 table {
+	margin:0px 20px 20px;
+	width:670px;
+	text-align:center;
+	border:1px solid #CCC;
+}
+#tax2015 #wrapper #cont #main #menu02 table td {
+	padding:10px 0;
+	text-align:center;
+	border:1px solid #CCC;
+}
+#tax2015 #wrapper #cont #main #menu02 table th {
+	background: #7AAD00;
+	color:#FFFFFF;
+	font-weight:bold;
+	border:1px solid #CCC;
+	padding:5px 0;
+	text-align:center;
+}
+#tax2015 #wrapper #cont #main table strong{
+	color:#dc1150;
+}
+/*** ------------------------------------------------------------------------------ 
+
+相続放棄をしなければこんなに大変（#very）
+
+-----------------------------------------------------------------------------  ***/
+#very #cont #main {
+
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+相続放棄の注意点①（#note01）
+
+-----------------------------------------------------------------------------  ***/
+#note01 #cont #main p span.month {
+	color: #dc1150;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#note01 #cont #main p em {
+	font-weight: bold;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+相続放棄の注意点②（#note02）
+
+-----------------------------------------------------------------------------  ***/
+#note02 #cont #main p em {
+	font-weight: bold;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+３ヶ月超えの相続放棄（#threem）
+
+-----------------------------------------------------------------------------  ***/
+#threem #cont #main p em {
+	font-weight: bold;
+}
+
+#threem #cont #main .section dl dt {
+	background: url("../../common/img/arrow_green.png") no-repeat left 10px;
+	border-bottom: 1px dotted #669900;
+	color: #669900;
+	font-size: 1.26em;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 10px 0;
+	padding: 0 0 0 20px;
+}
+
+#threem #cont #main .section dl dd {
+	padding: 0 0 1em;
+}
+/*** ------------------------------------------------------------------------------ 
+
+選ばれる5つのポイント（#point）
+
+-----------------------------------------------------------------------------  ***/
+#point #wrapper #cont #main .section .section_cont .right{
+	float:right;
+	margin:0 0 15px 15px;
+}
+
+
+
+#staff-detail #wrapper #cont #main h2 {
+    background: rgba(0, 0, 0, 0) url("../../common/img/bg_01.jpg") no-repeat scroll 0 0;
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+    height: 57px;
+    line-height: 65px;
+    margin: 0 0 25px;
+    padding: 0 0 0 20px;
+}
+#staff-detail #wrapper #cont #main .section.combination h3{
+    background:none;
+    height:auto;
+    line-height:auto;
+    margin: 0 0 20px;
+    padding:0;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table{
+	width:100%;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table tr{
+	border:1px solid #E2E2E2;
+	border-top:0;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table tr th{
+	font-weight:bold;
+	padding:10px 0 10px 15px;
+	background:#EFEFEF;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table tr td{
+	padding:10px 0 10px 15px;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table tr th.first{
+	border-top:5px solid #72AA00;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont table tr td.first{
+	border-top:5px solid #CCCCCC;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont{
+	margin:0 20px 25px;
+}
+#staff-detail #wrapper #cont #main .section.combination .section_cont.bklogo{
+	background:url(../../info/img/bklogo.png) no-repeat scroll right bottom;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+相続まんが
+
+-----------------------------------------------------------------------------  ***/
+
+#comic{
+	width:665px;
+	margin:0 auto;
+	padding: 20px 0 0;
+}
+#close{
+	background-color:#7AAD00;
+	width:100px;
+	margin:0 auto 30px;
+	text-align:center;
+	padding:10px 0;
+	border-radius:5px;
+}
+#close a{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+}
+
+
+/*** ------------------------------------------------------------------------------ 
+
+無料相談フォーム
+
+-----------------------------------------------------------------------------  ***/
+@media screen and (max-width: 640px) {
+	#consul h1.description{
+		width:auto;
+	}
+}
+#consul .description-wrap,
+#consul #inquiry-header{
+	position: static;
+}
+@media screen and (max-width: 640px) {
+	#consul .description-wrap{
+		background:none;
+		background-color:#F5E678;
+		height: auto;
+		padding:0 10px;
+		width:auto;
+	}
+	#consul #inquiry-header .hgroup{
+		width:auto;
+	}
+	#consul p.logo{
+		width:70%;
+		height: auto;
+	}
+	#consul p.logo img{
+		width:100%;
+		height: auto;
+	}
+}
+#consul #wrapper{
+	background:none;
+}
+#consul #inquiry-header{
+	border:0;
+}
+#consul #cont{
+	padding:0px;
+}
+@media screen and (max-width: 640px) {
+	#consul #cont{
+		width:auto;
+	}
+	#consul #main .section h2{
+		background:none;
+		background-color:#EAF2D9;
+		border-top:5px solid #72AA00;
+		height: auto;
+		line-height: 1.2;
+		padding: 10px;
+	}
+}
+#consul #wrapper #cont #sub {
+	display:none;
+}
+#consul #wrapper #cont #main {
+	width: 100%;
+}
+#consul #wrapper #cont #main p,
+#consul #wrapper #cont #main table{
+	font-size:1.167em;
+}
+#consul #wrapper #cont #main p.flow{
+	margin:0 0 20px;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main p.flow img{
+		width:100%;
+		height: auto;
+	}
+}
+#consul #wrapper #cont #main .topicpass{
+	font-size:0.96em;
+}
+#consul #wrapper #cont #main .section_cont{
+	margin:0;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section_cont{
+		margin:10px;
+	}
+}
+
+#consul #wrapper #cont #main .section .table-box {
+	border:2px #72AA00 solid;
+	width:100%;
+	padding:20px 0;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section .table-box {
+		width:auto;
+		margin: 0 10px;
+		padding:20px;
+	}
+}
+#consul #wrapper #cont #main .section table {
+	width:100%;
+}
+#consul #wrapper #cont #main .section table th{
+	width:220px;
+	padding:15px 15px 15px 40px;
+	vertical-align:top;
+	color:#7AAD00;
+	font-weight: bold;
+	background: url(../../info/img/img_contact_arrow01.png) 25px 25px no-repeat;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section table th{
+		width:auto;
+		padding:0;
+		display: list-item;
+		list-style: none;
+	}
+}
+#consul #wrapper #cont #main .section table th .attention{
+	font-weight: normal;
+	color:#333333;
+}
+#consul #wrapper #cont #main .section table th.sub-title{
+	background: none;
+	padding:0 15px;
+}
+*html #contact #wrapper #cont #main .section table th.sub-title{
+	width:685px;
+}
+*:first-child+html #contact #wrapper #cont #main .section table th.sub-title{
+	width:685px;
+}
+#consul #wrapper #cont #main .section table th.sub-title div{
+	background: url(../../info/img/img_contact_arrow02.png) 10px center no-repeat #7AAD00;
+	padding:0 25px;
+	color:#FFFFFF;
+	font-weight: bold;
+	line-height:27px;
+}
+#consul #wrapper #cont #main .section table td {
+	padding:15px 20px 10px 0px;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section table td {
+		display:list-item;
+		padding:0px;
+		list-style: none;
+	}
+}
+#consul #wrapper #cont #main .section table td input{
+	margin:3px 0px;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section table td input{
+		width:100%;
+		margin:0 0 20px;
+	}
+	#consul #wrapper #cont #main .section table td.nom input{
+		margin:0;
+	}
+	#consul #wrapper #cont #main .section table td.nom .pent{
+		margin:0 0 20px;
+		display:block;
+	}
+}
+#consul #wrapper #cont #main .section table td input.width_m{
+	width:80%;
+}
+#consul #wrapper #cont #main .section table td input.width_s{
+	width:20%;
+}
+#consul #wrapper #cont #main .section table td ul li{
+	float:left;
+	width:50%;
+	padding:0 0 5px;
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section table td ul li{
+		float:none;
+		width:100%;
+		padding:0 0 5px;
+	}
+}
+#consul #wrapper #cont #main .section table td textarea{
+	width:100%;
+	height:250px;
+}
+#consul #wrapper #cont #main .section .button{
+	text-align:center;
+	padding:20px 0px;
+}
+#consul #wrapper #cont #main .section .button img{
+	vertical-align:top;
+	padding:0 0 0 10px;
+}
+#consul #wrapper #cont #main .section .section_cont dl dt {
+	padding:0 0 10px 40px;
+	background:url(../../will/img/img_renounce06.png) left top no-repeat;
+	font-weight:bold;
+	font-size:1.1em;
+	border-bottom:1px dotted #699C00;
+	margin:10px 0 0;
+}
+#consul #wrapper #cont #main .section .section_cont dl dd {
+	padding:10px 0px 20px 40px;
+	background:url(../../will/img/img_renounce07.png) left 0.5em no-repeat;
+}
+#consul #wrapper #cont #main .section .section_cont .welcome01 {
+	background:#FDFCE1 url(../../info/img/img_contact03.png) 485px 80px no-repeat;
+	padding:15px 20px;
+	margin:10px 0 20px;
+}
+#consul #wrapper #cont #main .section .section_cont .welcome01 ul li{
+	background:url(../../info/img/arrow.jpg) left center no-repeat;
+	padding:5px 0 5px 20px;
+	font-weight:bold;
+	color:#79AC00;
+	font-size:1.1em;
+}
+#consul #wrapper #cont #main .section .section_cont .welcome02 {
+	background:#FDFCE1 url(../../info/img/img_contact05.png) 331px 60px no-repeat;
+	padding:15px 20px;
+	margin:0 0 20px;
+}
+#consul #wrapper #cont #main .section .section_cont .welcome02 strong{
+	color:#72AA00;
+	font-size:1.1em;
+}
+#consul #wrapper #cont #main .section table tr .check_box input{
+	margin:0 0.5em 0 0;	
+}
+@media screen and (max-width: 640px) {
+	#consul #wrapper #cont #main .section table tr .check_box input{
+		width: auto;
+	}
+	#consul #footer #fgroup{
+		width: auto;
+	}
+}
